@@ -1,2 +1,12 @@
 .env
+.env.local
+.next
+node_modules
+.vercel
+.codex/
+*.tsbuildinfo
+playwright/.cache
 .playwright-mcp/
+.DS_Store
+npm-debug.log*
+agent-workspace/work-logs/*.tmp
