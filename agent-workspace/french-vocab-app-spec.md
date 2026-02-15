@@ -160,16 +160,10 @@ Keep it clean and simple. No flashy UI. Think "Notion-level simplicity" — read
 
 ---
 
-## Env Vars
-
-| Var | Purpose |
-|---|---|
-| `APP_PASSWORD` | Password for the simple auth gate |
-| `QUIZLET_SET_URL` | The Quizlet flashcard set URL to poll |
-| `ANTHROPIC_API_KEY` | Claude API key |
-| `DATABASE_URL` | Neon Postgres connection string |
-| `TRIGGER_DEV_API_KEY` | trigger.dev API key |
+The quizlet URL is https://quizlet.com/1131039212/french-vocab-nick-flash-cards/?i=706z49&x=1jqU. You'll need to figure out how to use the undocumented API to get the data.
 
 ------
 
-This is a one-shot task! Plan, but then execute on your own. 
+**You have one shot to complete this entire task. Do not ask the user follow-up questions or present an unimplemented plan. Just do it!**
+
+Spend as long as you need on this to produce amazing results. You do not have a token or time limit.
