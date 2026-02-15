@@ -1,0 +1,8 @@
+{
+  "enabledMcpjsonServers": [
+    "trigger",
+    "vercel",
+    "playwright"
+  ],
+  "enableAllProjectMcpServers": true
+}
