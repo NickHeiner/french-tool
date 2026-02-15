@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "trigger": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "trigger.dev@latest", "mcp"],
+      "env": {
+        "TRIGGER_SECRET_KEY": "${TRIGGER_SECRET_KEY}",
+        "TRIGGER_PROJECT_ID": "${TRIGGER_PROJECT_ID}"
+      }
+    },
+    "vercel": {
+      "type": "http",
+      "url": "https://mcp.vercel.com"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}
